@@ -6,7 +6,8 @@ namespace PrettyGirlsTest
 {
     class Podcast
     {
-        public string Name { get; set; }
+        public string CastersName { get; set; }
+        public string CastName { get; set; }
         public string Subject { get; set; }
     }
 }
